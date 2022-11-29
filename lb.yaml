@@ -10,7 +10,7 @@ spec:
     targetPort: 8888
     nodePort: 30200
   selector:
-    app: was
+    app: main
 ---
 apiVersion: v1
 kind: Service
@@ -24,7 +24,7 @@ spec:
     targetPort: 8080
     nodePort: 30100
   selector:
-    app: was
+    app: event
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
