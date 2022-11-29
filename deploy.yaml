@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcat-deployment
+  name: main-deployment
 spec:
   replicas: 2
   selector:
@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - image: 851557167064.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:4
-        name: test-tomcat
+        name: test-main
