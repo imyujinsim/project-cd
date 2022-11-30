@@ -13,6 +13,6 @@ spec:
         app: event
     spec:
       containers:
-      - image: 851557167064.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:event8
+      - image: 851557167064.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:event10
         name: event
 
