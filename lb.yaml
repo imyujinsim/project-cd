@@ -20,7 +20,7 @@ spec:
   ports:
   - port: 80
     targetPort: 8888
-    nodePort: 30100
+    nodePort: 30700
   selector:
     app: event
 ---
