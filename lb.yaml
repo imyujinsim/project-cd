@@ -7,7 +7,7 @@ spec:
   ports:
   - port: 80
     targetPort: 8888
-    nodePort: 30400
+    nodePort: 30500
   selector:
     app: main
 ---
@@ -20,7 +20,7 @@ spec:
   ports:
   - port: 80
     targetPort: 8888
-    nodePort: 30800
+    nodePort: 30900
   selector:
     app: event
 ---
