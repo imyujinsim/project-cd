@@ -13,5 +13,5 @@ spec:
         app: main
     spec:
       containers:
-      - image: 851557167064.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:6
+      - image: 851557167064.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:7
         name: test-main
